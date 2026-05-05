@@ -1,7 +1,10 @@
-import sys, os
+import sys
+import os
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from monitor import collect
+from monitor import collect  # noqa: E402
+
 
 def test_collect_keys():
     data = collect()
