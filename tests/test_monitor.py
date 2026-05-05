@@ -11,4 +11,3 @@ def test_collect_keys():
     assert "cpu_percent" in data
     assert "top_processes" in data
     assert len(data["top_processes"]) <= 5
-    
